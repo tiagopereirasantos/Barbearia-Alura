@@ -27,3 +27,35 @@ nav a {
     text-decoration: none;
 }
 
+.produtos{
+    margin : 0 auto;
+    width : 940px;
+    padding : 50px 0; 
+}
+
+.produtos li{
+    display : inline-block;
+    text-align : center;
+    width : 30%;
+    vertical-align : top;
+    border : 1px solid #000000;
+    margin : 0 1.5%;
+    padding : 30px 20px;
+    box-sizing : border-box; /* serve para que o width em porcentagem considere o padding de 20px da linha anterior.
+                             Pois sem essa propriedade, o valor de padding é somado; já com a propriedade, os 30% são sempre 30%.*/
+}
+
+.produtos h2 {
+    font-size :30px;
+    font-weight : bold;
+}
+
+.produto-descricao{
+    font-size : 18px;
+}
+
+.produto-preco{
+    font-size: 22px;
+    font-weight : bold;
+    margin-top : 10px;
+}
