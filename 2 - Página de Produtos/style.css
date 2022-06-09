@@ -51,7 +51,7 @@ nav a:hover{
                              Pois sem essa propriedade, o valor de padding é somado; já com a propriedade, os 30% são sempre 30%.*/
 }
 
-.produtos li:hover{
+.produtos li:hover{ /*hover: "ON MOUSE MOVE"*/
     border-color : #C78C19;
 }
 
@@ -59,7 +59,7 @@ nav a:hover{
     font-size : 34px;
 }
 
-.produtos li:active{
+.produtos li:active{ /*active: "ON MOUSE CLICK"*/
     border-color : #088C19;
 }
 
